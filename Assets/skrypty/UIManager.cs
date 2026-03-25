@@ -60,6 +60,7 @@ public class UIManager : MonoBehaviour
     }
     public void OnShowEQPress()
     {
+        Debug.Log("wciœniety");
         if (!EQ.activeSelf)
         { 
             EQ.SetActive(true); 
